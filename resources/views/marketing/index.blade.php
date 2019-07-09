@@ -32,7 +32,7 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="biodataLabel">Form Biodata</h5>
+                                    <h5 class="modal-title" id="biodataLabel">Data Diri</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                     </button>
@@ -84,8 +84,9 @@
                     <div class="d-flex flex-column m-auto">
                       <div class="stats-small__data text-center">
                         <span class="stats-small__label text-uppercase">Form SPK</span>
+                        
                         <br>
-                        <a data-toggle="modal" data-target="#spk" class="btn btn-primary" href="">Buat</a>
+                        <a style="width:100px;" data-toggle="modal" data-target="#spk" class="btn btn-primary" href="">Buat</a>
                       </div>
                     </div>
                     <canvas height="120" class="blog-overview-stats-small-2"></canvas>
@@ -97,7 +98,7 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="spkLabel">Form Spk</h5>
+                                    <h5 class="modal-title" id="spkLabel">Surat Pemesanan Kontrak</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                     </button>
@@ -124,10 +125,10 @@
                                     <input type="string" name="no_telp" class="form-control">
                                     <br>
                                     <label for="">Produk</label>
-                                    <input type="text" name="produk" class="form-control">
+                                    <textarea class="form-control" name="produk" id="" cols="30" rows="4"></textarea>
                                     <br>
                                     <label for="">Deskripsi</label>
-                                    <textarea name="deskripsi" class="form-control" cols="30" rows="2"></textarea>
+                                    <textarea name="deskripsi" class="form-control" cols="30" rows="4"></textarea>
                                     <br>
                                     <label for="">Harga</label>
                                     <input type="number" name="harga" class="form-control">
@@ -169,7 +170,7 @@
                       <div class="stats-small__data text-center">
                         <span class="stats-small__label text-uppercase">POM</span>
                         <br>
-                        <a data-toggle="modal" data-target="#pom" class="btn btn-primary" class="btn btn-primary" href="">Buat</a>
+                        <a style="width:100px;" data-toggle="modal" data-target="#pom" class="btn btn-primary" class="btn btn-primary" href="">Buat</a>
                       </div>
                     </div>
                     <canvas height="120" class="blog-overview-stats-small-3"></canvas>
@@ -182,7 +183,7 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="pomLabel">Form POM</h5>
+                        <h5 class="modal-title" id="pomLabel">Point Of Meeting</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                         </button>

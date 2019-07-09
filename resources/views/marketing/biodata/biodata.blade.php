@@ -13,9 +13,7 @@
                     <label for="">Tempat, Tanggal Lahir</label>
                     <input class="" type="text" cols="100"  name="tempat" id="">
                     <input class="" type="date" name="tanggal_lahir" id="">
-                    <br>
-                
-                
+                    <br>        
                     <label for="">Alamat</label>
                     <textarea class="" name="alamat" id="" cols="30" rows="2"></textarea>
                     <br>

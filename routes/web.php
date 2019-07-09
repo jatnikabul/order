@@ -25,3 +25,6 @@ Route::resource('/marketing/biodata','Marketing\BiodataController');
 Route::get('/marketing/biodata/list','Marketing\BiodataController@list')->name('list');
 Route::resource('/marketing/spk','Marketing\SpkController');
 Route::resource('/marketing/pom','Marketing\PomController');
+
+//Admin
+Route::get('/admin','Admin\AdminController@index')->name('admin');
